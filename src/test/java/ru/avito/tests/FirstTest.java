@@ -24,7 +24,7 @@ public class FirstTest {
         catPage = new CatPage(driver);
         catItemPage = new CatItemPage(driver);
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.avito.ru/rossiya");
     }
 
